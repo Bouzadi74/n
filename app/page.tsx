@@ -74,6 +74,13 @@ export default function Page() {
           <div className="container px-4 md:px-6">
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Projects</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <ProjectCard
+                title="Weather script generator"
+                description="A local web app that generates weather scripts for TV broadcast in Arabic ,French and English"
+                image="/3.png?height=400&width=600"
+                link="https://github.com/Bouzadi74/weather-script"
+                tags={["RAG", "LLMs", "NLP", "Streamlit", "Prompt Engineering" ]}
+              />
               <ProjectCard
                 title="AI-Movie Night recommendation system"
                 description="An intelligent movie recommender that suggests films based on user preferences using content-based filtering and cosine similarity."
@@ -84,14 +91,14 @@ export default function Page() {
               <ProjectCard
                 title="Using Open Source AI Models with Hugging Face"
                 description="A real-time task management application with team collaboration features."
-                image="/placeholder.svg?height=400&width=600"
+                image="/huggingface.png?height=400&width=600"
                 link="https://github.com/Bouzadi74/Using-Open-Source-AI-Models-with-Hugging-Face"
                 tags={["Python", "PyTorch", "Transformers (by Hugging Face)", "PIL (Python Imaging Library)", "Huggingface Hub"]}
               />
               <ProjectCard
                 title="Kids e-learning platform"
                 description="An interactive e-learning platform for kids with engaging content and quizzes."
-                image="/placeholder.svg?height=400&width=600"
+                image="/elearning.png?height=400&width=600"
                 link="https://github.com/Bouzadi74/kids-e-learning"
                 tags={["PHP", "Laraveel", "TailwindCSS", "MySQL", "HTML", "CSS", "JavaScript", "AlpineJS", "ViteJS","MySQL/MariaDB" ]}
               />
@@ -108,21 +115,11 @@ export default function Page() {
           </div>
         </section>
 
-        <section id="contact" className="py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <div className="mx-auto max-w-2xl">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
-                Get in Touch
-              </h2>
-              <ContactForm />
-            </div>
-          </div>
-        </section>
       </main>
 
       <footer className="border-t">
         <div className="container flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6">
-          <p className="text-xs text-gray-500 dark:text-gray-400">© 2024 John.dev. All rights reserved.</p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">© 2025 Bouzadi Badreddine. All rights reserved.</p>
           <nav className="sm:ml-auto flex gap-4 sm:gap-6">
             <Link className="text-xs hover:underline underline-offset-4" href="#">
               Terms of Service
