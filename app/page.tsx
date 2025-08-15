@@ -26,9 +26,11 @@ export default function Page() {
               </Link>
             </nav>
           </div>
-          <Button variant="outline" className="ml-auto">
-            Resume
-          </Button>
+          <Link href="https://www.canva.com/design/DAGv9ARmuMs/lwv-r2wYsIcyHTB5KkdM2g/view?utm_content=DAGv9ARmuMs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hacf1470663" target="_blank">
+            <Button variant="outline" className="ml-auto">
+              Resume
+            </Button>
+          </Link>
         </div>
       </header>
 
@@ -75,7 +77,7 @@ export default function Page() {
               <ProjectCard
                 title="AI-Movie Night recommendation system"
                 description="An intelligent movie recommender that suggests films based on user preferences using content-based filtering and cosine similarity."
-                image="/placeholder.svg?height=400&width=600"
+                image="/AI-movie-night.png?height=400&width=600"
                 link="https://github.com/Bouzadi74/Build-an-AI-Movie-Night-Recommendation-Tool-Project"
                 tags={["Python", "Pandas", "Scikit-learn", "Numpy", "TMDB Dataset"]}
               />
