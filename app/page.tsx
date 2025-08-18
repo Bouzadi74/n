@@ -114,25 +114,11 @@ export default function Page() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Coded Papers</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
-                title="Paper Title 1"
-                description="Description of the first coded paper implementation. This should describe the research paper and your implementation."
-                image="/placeholder.jpg?height=400&width=600"
-                link="https://github.com/Bouzadi74/paper-implementation-1"
+                title="Coming soon"
+                description="Description."
+                image="/placeholder.svg?height=400&width=600"
+                link="test"
                 tags={["Python", "Research", "Implementation", "Machine Learning"]}
-              />
-              <ProjectCard
-                title="Paper Title 2"
-                description="Description of the second coded paper implementation. This should describe the research paper and your implementation."
-                image="/placeholder.jpg?height=400&width=600"
-                link="https://github.com/Bouzadi74/paper-implementation-2"
-                tags={["Deep Learning", "PyTorch", "Research", "Computer Vision"]}
-              />
-              <ProjectCard
-                title="Paper Title 3"
-                description="Description of the third coded paper implementation. This should describe the research paper and your implementation."
-                image="/placeholder.jpg?height=400&width=600"
-                link="https://github.com/Bouzadi74/paper-implementation-3"
-                tags={["NLP", "Transformers", "Research", "Natural Language Processing"]}
               />
             </div>
           </div>
