@@ -21,9 +21,6 @@ export default function Page() {
               <Link href="#projects" className="transition-colors hover:text-foreground/80">
                 Projects
               </Link>
-              <Link href="#coded-papers" className="transition-colors hover:text-foreground/80">
-                Coded Papers
-              </Link>
               <Link href="#contact" className="transition-colors hover:text-foreground/80">
                 Contact
               </Link>
@@ -105,25 +102,17 @@ export default function Page() {
                 link="https://github.com/Bouzadi74/kids-e-learning"
                 tags={["PHP", "Laraveel", "TailwindCSS", "MySQL", "HTML", "CSS", "JavaScript", "AlpineJS", "ViteJS","MySQL/MariaDB" ]}
               />
-            </div>
-          </div>
-        </section>
-
-        <section id="coded-papers" className="py-12 md:py-24 lg:py-32">
-          <div className="container px-4 md:px-6">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Coded Papers</h2>
-            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
                 title="CineVault"
                 description="Movie management web app with Java/JSP and MySQL: authentication, browse/add/edit/delete movies, TMDB posters and metadata, comments, and personalized suggestions."
-                image="/placeholder.jpg?height=400&width=600"
+                image="/cinevault.png?height=400&width=600"
                 link="https://github.com/Bouzadi74/CineVaultMaven"
                 tags={["Java", "JSP", "MySQL", "Maven", "Tomcat", "TMDB API", "Docker"]}
               />
               <ProjectCard
                 title="Collaborative Filtering Books Recommender"
                 description="Book recommendations with KNN (cosine similarity) on the Book-Crossing dataset: sparsity-aware filtering, user–item matrix, top-5 similar books per title."
-                image="/placeholder.jpg?height=400&width=600"
+                image="/books-recommender.png?height=400&width=600"
                 link="https://github.com/Bouzadi74/collaborative-filtering-books-recommender"
                 tags={["Python", "Scikit-learn", "KNN", "Collaborative Filtering", "Pandas", "Book-Crossing"]}
               />
