@@ -113,7 +113,7 @@ export default function Page() {
                 title="Collaborative Filtering Books Recommender"
                 description="Book recommendations with KNN (cosine similarity) on the Book-Crossing dataset: sparsity-aware filtering, user–item matrix, top-5 similar books per title."
                 image="/books-recommender.png?height=400&width=600"
-                link="https://github.com/Bouzadi74/collaborative-filtering-books-recommender"
+                link="https://github.com/Bouzadi74/Books-Recommender"
                 tags={["Python", "Scikit-learn", "KNN", "Collaborative Filtering", "Pandas", "Book-Crossing"]}
               />
             </div>
