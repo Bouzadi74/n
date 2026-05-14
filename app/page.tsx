@@ -114,11 +114,18 @@ export default function Page() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Coded Papers</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
-                title="Coming soon"
-                description="Description."
-                image="/placeholder.svg?height=400&width=600"
-                link="test"
-                tags={["Python", "Research", "Implementation", "Machine Learning"]}
+                title="CineVault"
+                description="Movie management web app with Java/JSP and MySQL: authentication, browse/add/edit/delete movies, TMDB posters and metadata, comments, and personalized suggestions."
+                image="/placeholder.jpg?height=400&width=600"
+                link="https://github.com/Bouzadi74/CineVaultMaven"
+                tags={["Java", "JSP", "MySQL", "Maven", "Tomcat", "TMDB API", "Docker"]}
+              />
+              <ProjectCard
+                title="Collaborative Filtering Books Recommender"
+                description="Book recommendations with KNN (cosine similarity) on the Book-Crossing dataset: sparsity-aware filtering, user–item matrix, top-5 similar books per title."
+                image="/placeholder.jpg?height=400&width=600"
+                link="https://github.com/Bouzadi74/collaborative-filtering-books-recommender"
+                tags={["Python", "Scikit-learn", "KNN", "Collaborative Filtering", "Pandas", "Book-Crossing"]}
               />
             </div>
           </div>
